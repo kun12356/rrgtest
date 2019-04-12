@@ -17,7 +17,7 @@ public class BrandController {
 
 
 
-//
+//kjll
 
     @RequestMapping("/find")
     public List<TbBrand> find(){
