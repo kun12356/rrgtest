@@ -17,9 +17,8 @@ public class BrandController {
 
 
 
-    //这是一个测试分支用的
 
-    //假如我这里又写了一些代码怎么搞?
+
     @RequestMapping("/find")
     public List<TbBrand> find(){
         List<TbBrand> brandList = brandService.findAll();
