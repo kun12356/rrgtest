@@ -15,6 +15,9 @@ public class BrandController {
     @Reference
     BrandService brandService;
 
+
+
+    //这是一个测试用的
     @RequestMapping("/find")
     public List<TbBrand> find(){
         List<TbBrand> brandList = brandService.findAll();
